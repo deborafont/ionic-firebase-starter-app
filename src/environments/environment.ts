@@ -5,12 +5,13 @@
 export const environment = {
   production: false,
   firebase : {
-    apiKey: "YOUR_CREDENTIALS_HERE",
-    authDomain: "YOUR_CREDENTIALS_HERE",
-    databaseURL: "YOUR_CREDENTIALS_HERE",
-    projectId: "YOUR_CREDENTIALS_HERE",
-    storageBucket: "YOUR_CREDENTIALS_HERE",
-    messagingSenderId: "YOUR_CREDENTIALS_HERE"
+    apiKey: "AIzaSyDiSGX3EHY16vwTR2qsBZprVfwmoJS19vI",
+    authDomain: "db-test-app-room-scape.firebaseapp.com",
+    databaseURL: "https://db-test-app-room-scape.firebaseio.com",
+    projectId: "db-test-app-room-scape",
+    storageBucket: "",
+    messagingSenderId: "1055947965603",
+    appId: "1:1055947965603:web:d46a3aa2a8e11694e1eb16"
   }
 };
 

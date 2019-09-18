@@ -8,7 +8,15 @@ const routes: Routes = [
   { path: 'details/:id', loadChildren: './details/details.module#DetailsPageModule' },
   { path: 'home', loadChildren: './home/home.module#HomePageModule' },
   { path: 'new-task', loadChildren: './new-task/new-task.module#NewTaskPageModule' },
-  // { path: 'new-task-modal', loadChildren: './new-task-modal/new-task-modal.module#NewTaskModalPageModule' },
+  { path: 'profile', loadChildren: './profile/profile.module#ProfilePageModule' },
+  { path: 'map', loadChildren: './map/map.module#MapPageModule' },
+  { path: 'filter', loadChildren: './filter/filter.module#FilterPageModule' },
+  { path: 'tab', loadChildren: './tab/tab.module#TabPageModule' },
+  { path: 'complete', loadChildren: './complete/complete.module#CompletePageModule' },
+  { path: 'header', loadChildren: './header/header.module#HeaderPageModule' },
+  { path: 'pop-up', loadChildren: './pop-up/pop-up.module#PopUpPageModule' },
+  { path: 'saved', loadChildren: './saved/saved.module#SavedPageModule' },
+
 ];
 
 @NgModule({
